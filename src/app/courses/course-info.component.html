@@ -2,7 +2,7 @@
 
 <hr>
 
-<form #courseForm="ngForm">
+<form #courseForm="ngForm" *ngIf="course">
 
 	<img [src]="course.imageUrl" width="40px" alt="">
 
